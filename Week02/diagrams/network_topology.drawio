@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ApexByte Network Topology" id="QFiyvDIecWbnAu6I4ys0">
+    <mxGraphModel dx="1585" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Internet&#xa;(ISP Fiber 1Gbps)" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" value="ISP Fiber Modem&#xa;(ONT)" vertex="1">
+          <mxGeometry height="50" width="120" x="200" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="Enterprise Router&#xa;(Multi-WAN)" vertex="1">
+          <mxGeometry height="50" width="120" x="360" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" value="Hardware Firewall&#xa;(NGFW / VPN)" vertex="1">
+          <mxGeometry height="50" width="130" x="520" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="48-Port Managed Switch&#xa;(Core Switch)" vertex="1">
+          <mxGeometry height="80" width="160" x="700" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-6" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-1" target="cnAvsFf4A2RaNfDMGUJc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-7" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-2" target="cnAvsFf4A2RaNfDMGUJc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-8" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-3" target="cnAvsFf4A2RaNfDMGUJc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-9" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-4" target="cnAvsFf4A2RaNfDMGUJc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-10" parent="1" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="VLAN 10: IT Dept&#xa;192.168.10.0/24&#xa;(5 Dev Workstations)" vertex="1">
+          <mxGeometry height="50" width="180" x="920" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-11" parent="1" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="VLAN 20: HR Dept&#xa;192.168.20.0/24&#xa;(4 Desktops)" vertex="1">
+          <mxGeometry height="50" width="180" x="920" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-12" parent="1" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="VLAN 30: Finance Dept&#xa;192.168.30.0/24&#xa;(5 Desktops)" vertex="1">
+          <mxGeometry height="50" width="180" x="920" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-13" parent="1" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="VLAN 40: Sales (AP)&#xa;192.168.40.0/24&#xa;(6 Laptops via Wi-Fi)" vertex="1">
+          <mxGeometry height="50" width="180" x="920" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-14" parent="1" style="rectangle;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="VLAN 50: Servers/NAS&#xa;192.168.50.0/24&#xa;(Xeon Server &amp; 16TB NAS)" vertex="1">
+          <mxGeometry height="50" width="180" x="920" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-15" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-5" target="cnAvsFf4A2RaNfDMGUJc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-16" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-5" target="cnAvsFf4A2RaNfDMGUJc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-17" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-5" target="cnAvsFf4A2RaNfDMGUJc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-18" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-5" target="cnAvsFf4A2RaNfDMGUJc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnAvsFf4A2RaNfDMGUJc-19" edge="1" parent="1" source="cnAvsFf4A2RaNfDMGUJc-5" target="cnAvsFf4A2RaNfDMGUJc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,31 @@
+====================================================================
+APEXBYTE SOLUTIONS INC. - IT INFRASTRUCTURE REFERENCES & SOURCES
+Course: ITEP 414 - System Administration and Maintenance
+====================================================================
+
+1. SYSTEM ADMINISTRATION ROLES & CERTIFICATIONS (Part 6)
+--------------------------------------------------------------------
+* Helpdesk Technician Roles & CompTIA A+ Standards:
+  - CompTIA A+ Certification Roadmap: https://www.comptia.org/certifications/a
+  - Microsoft Certified: Modern Desktop Administrator Associate
+
+* Network Administrator & Cisco Standards:
+  - Cisco Certified Network Associate (CCNA) Guidelines: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html
+  - Subnetting & Network Segmentation Architecture: Cisco Press Networking Basics
+
+* Linux System Administrator & Enterprise Standards:
+  - Red Hat Certified System Administrator (RHCSA): https://www.redhat.com/en/services/certification/rhcsa
+  - Linux Foundation System Administration Standards: https://training.linuxfoundation.org/
+
+* Cloud Administrator Roles & AWS/Azure Standards:
+  - AWS Certified SysOps Administrator - Associate: https://aws.amazon.com/certification/certified-sysops-admin-associate/
+  - Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+2. INFRASTRUCTURE & BACKUP RECOMMENDATIONS (Part 7)
+--------------------------------------------------------------------
+* Cybersecurity & Backup Best Practices:
+  - CISA 3-2-1 Backup Strategy Guidelines: https://www.cisa.gov/resources-tools/resources/3-2-1-backup-strategy
+  - National Institute of Standards and Technology (NIST) Cybersecurity Framework
+
+* Hardware & RAID Configurations:
+  - RAID 10 Architecture & Enterprise Server Standards: Intel Infrastructure Whitepapers
