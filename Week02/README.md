@@ -1,4 +1,4 @@
-# Enterprise IT Infrastructure Plan — ABC Startup Solutions
+# Enterprise IT Infrastructure Plan — ApexBytes Solutions
 
 > **Course:** ITEP 414 – System Administration and Maintenance  
 > **Module:** Week 2 Individual Portfolio Project  
@@ -27,7 +27,7 @@
 ## Project Overview
 Every successful IT infrastructure begins with comprehensive planning. Before purchasing hardware, deploying servers, configuring networking gear, or provisioning cloud resources, a System Administrator must assess business requirements and architect a secure, scalable, and cost-effective infrastructure.
 
-This project presents a complete **Enterprise IT Infrastructure Plan** created for **ABC Startup Solutions**, a newly established software development company with 20 employees operating on a single office floor. Designed from scratch, this plan covers company profiling, hardware/software/network inventories, network topology design, system administration roles analysis, technical recommendations, and personal reflection.
+This project presents a complete **Enterprise IT Infrastructure Plan** created for **ApexBytes Solutions**, a newly established software development company with 20 employees operating on a single office floor. Designed from scratch, this plan covers company profiling, hardware/software/network inventories, network topology design, system administration roles analysis, technical recommendations, and personal reflection.
 
 ---
 
@@ -50,9 +50,9 @@ Upon completion of this portfolio project, the student demonstrates:
 ## Company Scenario & Profile
 
 ### Overview
-**ABC Startup Solutions** is a newly established software development enterprise specializing in custom web applications, enterprise software solutions, and cloud-native backend services.
+**ApexBytes Solutions** is a newly established software development enterprise specializing in custom web applications, enterprise software solutions, and cloud-native backend services.
 
-* **Company Name:** ABC Startup Solutions Inc.
+* **Company Name:** ApexBytes Solutions Inc.
 * **Nature of Business:** Software Development & IT Consulting
 * **Office Location:** 5th Floor, East Tower, Greenfield IT Park, Santa Rosa City, Laguna, Philippines
 * **Company Vision:** To become a premier provider of scalable, high-performance web and cloud enterprise solutions across Southeast Asia.
@@ -183,7 +183,7 @@ Below is the complete hardware specification designed to meet operational demand
 * **Certifications:** AWS Certified Solutions Architect – Associate, AWS Certified SysOps Administrator – Associate, Microsoft Certified: Azure Administrator Associate (AZ-104).
 
 ### How These Roles Collaborate
-Inside an organization like ABC Startup Solutions, these four professionals form an interconnected technical team. The **Helpdesk Technician** serves as the front line, identifying workstation or user-level network issues and escalating complex network outages to the **Network Administrator**. The Network Administrator maintains stable LAN/WAN connectivity and firewall policies, enabling the **Linux System Administrator** to host and manage secure on-premises applications, local database servers, and active directory services. Meanwhile, as workloads scale or require offsite disaster recovery, the Linux System Administrator collaborates with the **Cloud Administrator** to bridge local resources with cloud infrastructure (hybrid cloud deployment). Together, they establish a cohesive, secure, and resilient IT ecosystem that supports uninterrupted business operations.
+Inside an organization like ApexBytes Solutions, these four professionals form an interconnected technical team. The **Helpdesk Technician** serves as the front line, identifying workstation or user-level network issues and escalating complex network outages to the **Network Administrator**. The Network Administrator maintains stable LAN/WAN connectivity and firewall policies, enabling the **Linux System Administrator** to host and manage secure on-premises applications, local database servers, and active directory services. Meanwhile, as workloads scale or require offsite disaster recovery, the Linux System Administrator collaborates with the **Cloud Administrator** to bridge local resources with cloud infrastructure (hybrid cloud deployment). Together, they establish a cohesive, secure, and resilient IT ecosystem that supports uninterrupted business operations.
 
 ---
 
